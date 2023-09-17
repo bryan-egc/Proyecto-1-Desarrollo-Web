@@ -12,7 +12,7 @@ Parte inicial del proyecto del curso Desarrollo Web
 
 🙍‍♂️: Helder Iván Ajcalón Jacobo
 
-🪪: 9490 20 10326
+🪪: 9490-20-10326
 
 ## Tecnologías utilizadas
 
