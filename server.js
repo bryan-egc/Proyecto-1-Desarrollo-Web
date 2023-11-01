@@ -8,6 +8,7 @@ const cartRoutes = require('./cartRouter');
 const purchaseRoutes = require('./purchaseRouter');
 
 const app = express();
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -30,7 +31,6 @@ app.use('/api', productRoutes);
 app.use('/api', cartRoutes);
 app.use('/api', purchaseRoutes);
 
-const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en el puerto ${PORT}`);
 });
